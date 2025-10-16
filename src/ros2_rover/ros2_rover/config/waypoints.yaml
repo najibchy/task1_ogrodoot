@@ -1,0 +1,13 @@
+science_waypoints:
+  - {x: 2.0, y: 2.0}
+  - {x: 8.0, y: 2.0}
+  - {x: 8.0, y: 8.0}
+
+delivery_tasks:
+  - {pickup: {x: 2.0, y: 5.0}, dropoff: {x: 9.0, y: 9.0}, id: "pkg_1"}
+
+autonav_sequence:
+  - {type: "gnss", x: 2.0, y: 2.0}
+  - {type: "vision", x: 5.5, y: 2.5, label: "red_circle"}
+  - {type: "gnss", x: 8.0, y: 7.0}
+  - {type: "vision", x: 5.0, y: 8.0, label: "green_box"}

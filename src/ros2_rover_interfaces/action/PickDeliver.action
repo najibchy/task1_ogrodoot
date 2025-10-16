@@ -1,0 +1,14 @@
+# Goal
+geometry_msgs/PoseStamped pickup
+geometry_msgs/PoseStamped dropoff
+string id   # optional id for the object
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+string stage
+float32 percent

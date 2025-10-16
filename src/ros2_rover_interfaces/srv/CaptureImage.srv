@@ -1,0 +1,8 @@
+# Request
+string filename_prefix
+bool use_webcam
+---
+# Response
+bool success
+string filepath
+string timestamp
